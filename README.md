@@ -1,0 +1,2 @@
+# 2025Reboot_pikopikoAdventure
+新入生ゲーム制作のリブート企画です。
