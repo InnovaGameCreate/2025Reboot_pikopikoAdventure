@@ -10,7 +10,21 @@ public class S1ChangeScene : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("Stage2");
-           
+
         }
     }
+
+         void Update()
+    {
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene("Stage1");
+        }
+    
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("OP");
+        }
+    }
+
 }

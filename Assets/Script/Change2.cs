@@ -12,9 +12,17 @@ public class Change2 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+         void Update()
     {
-        
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene("Stage2");
+        }
+    
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("OP");
+        }
     }
 
     private void OnTriggerEnter(Collider other)
