@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 0de7ff12ee845374c8298b36c70d9416
+  productGUID: 2c641618ada545447ae8c0e22812dc7f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: "\u30D4\u30B3\u30D4\u30B3\u30E1\u30A4\u30F3\u4F5C\u6210"
+  productName: "\u30D4\u30B3\u30A2\u30C9\u30D9\u30F3\u30C1\u30E3\u30FC\u4F5C\u6210"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -838,14 +838,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: "\u30D4\u30B3\u30D4\u30B3\u30E1\u30A4\u30F3\u4F5C\u6210"
+  metroPackageName: "\u30D4\u30B3\u30A2\u30C9\u30D9\u30F3\u30C1\u30E3\u30FC\u4F5C\u6210"
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: "\u30D4\u30B3\u30D4\u30B3\u30E1\u30A4\u30F3\u4F5C\u6210"
+  metroApplicationDescription: "\u30D4\u30B3\u30A2\u30C9\u30D9\u30F3\u30C1\u30E3\u30FC\u4F5C\u6210"
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -916,11 +916,12 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: eaa700a3-ba32-4c14-b626-3dd5f3ef1c18
+  cloudProjectId: 07c67f62-524c-46c5-8d8c-2c96d272f0c7
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: "\u30D4\u30B3\u30D4\u30B3\u30E1\u30A4\u30F3\u4F5C\u6210"
-  organizationId: jiebenhuangyang
+  projectName: "\u30D4\u30B3\u30A2\u30C9\u30D9\u30F3\u30C1\u30E3\u30FC\u4F5C\u6210
+    2025-09-04_23-58-53"
+  organizationId: harutoyamauchi
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
