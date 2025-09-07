@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class AnimationTest : MonoBehaviour
 {
-    private Animator anim = null;
+    private Animator _anim = null;
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        _anim = GetComponent<Animator>();
      
     }
 
@@ -17,20 +17,20 @@ public class AnimationTest : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.F))
         {
-            anim.SetBool("walk", true);
+            _anim.SetBool("walk", true);
         }
         else
         {
-            anim.SetBool("walk", false);
+            _anim.SetBool("walk", false);
         }
 
         if(Input.GetKey(KeyCode.Space))
         {
-            anim.SetBool("jump", true);
+            _anim.SetBool("jump", true);
         }
         else
         {
-            anim.SetBool("jump", false);
+            _anim.SetBool("jump", false);
         }
     }
 }
