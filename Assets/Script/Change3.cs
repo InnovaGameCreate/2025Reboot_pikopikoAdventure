@@ -14,7 +14,15 @@ public class Change3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene("Stage3");
+        }
+    
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("OP");
+        }
     }
 
     private void OnTriggerEnter(Collider other)
