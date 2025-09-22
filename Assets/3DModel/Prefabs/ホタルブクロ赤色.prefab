@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 9161122193912353064}
   - component: {fileID: 5954926627528794834}
   - component: {fileID: 4573099727113487708}
+  - component: {fileID: 2569763657224911080}
   m_Layer: 0
   m_Name: "\u30DB\u30BF\u30EB\u30D6\u30AF\u30ED\u8D64\u8272"
   m_TagString: tp
@@ -286,7 +287,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 50, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5427821111644179021}
@@ -412,3 +413,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2569763657224911080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8388245357031033746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56562827749c128468e9b3896aa7d648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: cc2f6354b4f42a943b3f681602b371da, type: 3}
+  player: {fileID: 0}
+  pos: {x: 0, y: 0, z: 0}
