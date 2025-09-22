@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56562827749c128468e9b3896aa7d648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: cc2f6354b4f42a943b3f681602b371da, type: 3}
   player: {fileID: 0}
   pos: {x: 0, y: 0, z: 0}
 --- !u!1 &2826724833731797290

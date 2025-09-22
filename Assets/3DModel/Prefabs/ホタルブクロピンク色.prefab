@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 883407519598534696}
   - component: {fileID: 3935811316441856625}
   - component: {fileID: 5440673464352183065}
+  - component: {fileID: 1578504219774089182}
   m_Layer: 0
   m_Name: "\u30DB\u30BF\u30EB\u30D6\u30AF\u30ED\u30D4\u30F3\u30AF\u8272"
   m_TagString: tp
@@ -240,6 +241,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1578504219774089182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507128684367592082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56562827749c128468e9b3896aa7d648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: cc2f6354b4f42a943b3f681602b371da, type: 3}
+  player: {fileID: 0}
+  pos: {x: 0, y: 0, z: 0}
 --- !u!1 &4139349641808447939
 GameObject:
   m_ObjectHideFlags: 0
