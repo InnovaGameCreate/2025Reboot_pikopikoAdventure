@@ -15,8 +15,7 @@ public class PlayerLife : MonoBehaviour
             SceneManager.LoadScene("OP");
         }
 
-        // ステージ4に戻す
-        SceneManager.LoadScene("Stage4");
+       
     }
 }
 
