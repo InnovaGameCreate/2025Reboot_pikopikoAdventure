@@ -2768,7 +2768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2124566109546487407, guid: eaabaed6b6f049642941302b93a38515, type: 3}
       propertyPath: pos.z
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2124566109546487407, guid: eaabaed6b6f049642941302b93a38515, type: 3}
       propertyPath: player
@@ -3454,7 +3454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2124566109546487407, guid: eaabaed6b6f049642941302b93a38515, type: 3}
       propertyPath: pos.z
-      value: 19
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2124566109546487407, guid: eaabaed6b6f049642941302b93a38515, type: 3}
       propertyPath: player
