@@ -23,7 +23,6 @@ public class Gimmick2 : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-
         if (find.instance.Tp && Input.GetKeyDown(KeyCode.K))
         {
             player.transform.position = new Vector3(pos.x, pos.y, pos.z);
