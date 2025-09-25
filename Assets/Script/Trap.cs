@@ -7,10 +7,9 @@ public class Trap : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerLife playerLife = other.GetComponent<PlayerLife>();
-            if (playerLife != null)
+            if (LifeData.lifePoint > 0)
             {
-                playerLife.Damage();
+                LifeData.lifePoint--;
             }
         }
     }
