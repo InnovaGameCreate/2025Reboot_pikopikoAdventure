@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 
 public class PlayerMove : MonoBehaviour
 {
@@ -12,8 +10,6 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody rb;
     private int upForce;
     private bool isGround;
-
-   
 
 
     // Start is called before the first frame update
