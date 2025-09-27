@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 9161122193912353064}
   - component: {fileID: 5954926627528794834}
   - component: {fileID: 4573099727113487708}
-  - component: {fileID: 2569763657224911080}
+  - component: {fileID: 6355730201783082865}
   m_Layer: 0
   m_Name: "\u30DB\u30BF\u30EB\u30D6\u30AF\u30ED\u8D64\u8272"
   m_TagString: tp
@@ -413,7 +413,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2569763657224911080
+--- !u!114 &6355730201783082865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -427,4 +427,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: cc2f6354b4f42a943b3f681602b371da, type: 3}
   player: {fileID: 0}
-  pos: {x: 0, y: 0, z: 0}
+  pos: {x: -15, y: 4, z: 2}
